@@ -1,5 +1,5 @@
-variable "PATH_TO_PUBLIC_KEY" {
+variable "PATH_TO_PUBLIC_KEY" {}
 
-	default = "chandankey.pub"
+#	default = "chandankey.pub"
 
-}
+
