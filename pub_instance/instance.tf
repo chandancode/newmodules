@@ -1,6 +1,6 @@
 resource "aws_instance" "example1" {
-  #  ami = "ami-889cecf4"
-  ami           = "${lookup(var.AMIS,var.AWS_region)}"
+  ami = "ami-889cecf4"
+#  ami           = "${lookup(var.AMIS,var.AWS_region)}"
   instance_type = "t2.micro"
 #  key_name      = "${aws_key_pair.chandankey.key_name}"
 #  vpc_security_group_ids = ["${aws_security_group.FrontEnd.id}"]
